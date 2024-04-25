@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norse Mythology</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function updateImage() {
+            var selectedGod = document.getElementById('norse-gods').value;
+            var imagePath = "/Users/Mugheera/Desktop/Comp426/a01-html-css/" + selectedGod + ".jpg";
+            document.getElementById('norse-image').src = imagePath; 
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Norse Mythology</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="page2.html">Greek Myths</a></li>
+                <li><a href="page3.html">Norse Myths</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Norse Gods</h2>
+            <select id="norse-gods" onchange="updateImage()">    
+                <option>thor</option>
+                <option>loki</option>
+            </select>
+            <img id="norse-image" src="/thor.jpg" alt="Thor">
+    </main>
+
+    <footer>
+        <div class = "copyright"> 
+            <h3> © 2024 Medusa </h3>
+    </footer>
+</body>
+</html>

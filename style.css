@@ -1,0 +1,113 @@
+body {
+    background-color: #EDEFEE;
+    font-family: 'Sono', sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+h2 {
+    color: #B53434;
+    font-family: 'Sono', sans-serif;
+    align-self: flex-start;
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: #132013;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+p {
+    text-align: justify;
+    font-weight: 400;
+
+}
+
+a:hover {
+    color: #B53434;
+}
+
+a:active {
+    color: #8E44AD;
+}
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    justify-content: center;
+    margin: 1rem;
+    border-radius: 1rem;
+    background-color: #E6E5E0;
+}
+
+nav li {
+
+    border-radius: 1rem;
+    margin: 1rem;
+
+}
+
+#greek-table {
+    width: 80%;               
+    margin: auto;               
+    border-collapse: collapse; 
+}
+
+#greek-table th, #godsTable td {
+    padding: 8px;            
+    text-align: center;         
+}
+
+#greek-table th {
+    background-color: #d9d9d9;
+    color: black; 
+}
+
+#greek-table td img {
+    width: 100px;           
+    height: auto;         
+}
+
+
+
+footer {
+    border-top: #132013 solid;
+    display: flex;
+    background-color: #E6E5E0;
+    border-radius: 1rem;
+    
+}
+
+div {
+    flex-basis: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.copyright {
+    justify-content: flex-start;
+}
+
+

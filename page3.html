@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="style.css">
     <script>
         function updateImage() {
-            var selectedGod = document.getElementById('norse-gods').value;
-            var imagePath = "/Users/Mugheera/Desktop/Comp426/a01-html-css/" + selectedGod + ".jpg";
-            document.getElementById('norse-image').src = imagePath; 
+            var selectedGod = document.getElementById('norse-gods').value + ".jpg";
+            document.getElementById('norse-image').src = selectedGod; 
         }
     </script>
 </head>
@@ -31,7 +30,7 @@
                 <option>thor</option>
                 <option>loki</option>
             </select>
-            <img id="norse-image" src="/thor.jpg" alt="Thor">
+            <img id="norse-image" src="thor.jpg" alt="Thor">
     </main>
 
     <footer>
